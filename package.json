@@ -1,0 +1,62 @@
+{
+	"name": "@ctx-core/preprocess",
+	"version": "0.1.0",
+	"description": "fork of preprocess library with ts types & esm",
+	"keywords": [
+		"preprocess",
+		"esm",
+		"ts",
+		"typescript"
+	],
+	"homepage": "https://github.com/ctx-core/preprocess#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/preprocess/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/preprocess.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"type": "module",
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"preprocess",
+		"regexrules"
+	],
+	"types": "./index.d.ts",
+	"exports": {
+		".": "./index.js",
+		"./regexrules": "./regexrules/index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@",
+		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
+	},
+	"dependencies": {
+		"xregexp": "^4.4.1"
+	},
+	"devDependencies": {
+		"c8": "^8.0.1",
+		"check-dts": "^0.7.2",
+		"tsx": "^4.7.0",
+		"typescript": "next",
+		"uvu": "^0.5.6"
+	},
+	"publishConfig": {
+		"access": "public",
+		"cache": "~/.npm"
+	},
+	"noUpdate": [
+		"xregexp"
+	],
+	"sideEffects": false
+}
