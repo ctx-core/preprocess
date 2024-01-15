@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/preprocess",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "fork of preprocess library with ts types & esm",
 	"keywords": [
 		"preprocess",

@@ -9,10 +9,10 @@
  * Written by Jarrod Overson - http://jarrodoverson.com/
  * Licensed under the Apache 2.0 license.
  */
-import { readFileSync, statSync, writeFileSync } from 'fs'
-import { readFile, writeFile } from 'fs/promises'
-import { EOL } from 'os'
-import { dirname, extname, join } from 'path'
+import { readFileSync, statSync, writeFileSync } from 'node:fs'
+import { readFile, writeFile } from 'node:fs/promises'
+import { EOL } from 'node:os'
+import { dirname, extname, join } from 'node:path'
 import XRegExp from 'xregexp'
 import * as regexrules from '../regexrules/index.js'
 const { escape, matchRecursive } = XRegExp
