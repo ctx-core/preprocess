@@ -51,8 +51,8 @@
 	},
 	"devDependencies": {
 		"c8": "^10.1.2",
-		"check-dts": "^0.8.0",
-		"tsx": "^4.17.0",
+		"check-dts": "^0.8.2",
+		"tsx": "^4.19.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
