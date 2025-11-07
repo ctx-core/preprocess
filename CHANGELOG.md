@@ -1,5 +1,11 @@
 # @ctx-core/preprocess
 
+## 0.2.1
+
+### Patch Changes
+
+- Fix xregexp pinned version at ^5.1.2
+
 ## 0.2.0
 
 ### Minor Changes

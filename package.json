@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/preprocess",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "fork of preprocess library with ts types & esm",
 	"keywords": [
 		"preprocess",
@@ -47,7 +47,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"xregexp": ">=4.0.0"
+		"xregexp": "^5.1.2"
 	},
 	"devDependencies": {
 		"c8": "^10.1.3",
