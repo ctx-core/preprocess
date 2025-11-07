@@ -1,5 +1,11 @@
 # @ctx-core/preprocess
 
+## 0.2.2
+
+### Patch Changes
+
+- fix: pinned dependency "xregexp": "^4.4.1"
+
 ## 0.2.1
 
 ### Patch Changes
