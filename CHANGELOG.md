@@ -1,5 +1,11 @@
 # @ctx-core/preprocess
 
+## 0.2.0
+
+### Minor Changes
+
+- Loosen requirement for xregexp
+
 ## 0.1.3
 
 ### Patch Changes
