@@ -47,7 +47,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"xregexp": "^4.4.1"
+		"xregexp": "^5.1.2"
 	},
 	"devDependencies": {
 		"c8": "^10.1.3",
