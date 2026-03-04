@@ -1,5 +1,13 @@
 # @ctx-core/preprocess
 
+## 0.2.3
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+
 ## 0.2.2
 
 ### Patch Changes

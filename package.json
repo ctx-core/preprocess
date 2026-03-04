@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/preprocess",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "fork of preprocess library with ts types & esm",
 	"keywords": [
 		"preprocess",
@@ -50,9 +50,9 @@
 		"xregexp": "^4.4.1"
 	},
 	"devDependencies": {
-		"c8": "^10.1.3",
-		"check-dts": "^0.8.2",
-		"tsx": "^4.20.6",
+		"c8": "^11.0.0",
+		"check-dts": "^0.9.0",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3",
 		"uvu": "^0.5.6"
 	},
