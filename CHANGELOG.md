@@ -1,5 +1,11 @@
 # @ctx-core/preprocess
 
+## 0.2.4
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 0.2.3
 
 ### Patch Changes
