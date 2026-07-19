@@ -4,7 +4,10 @@
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",
 		"target": "ESNext",
-		"strict": true
+		"strict": true,
+		// index.d.ts references Buffer; without this the package type-check
+		// fails on its own published declarations (TS2591).
+		"types": ["node"]
 	},
 	"exclude": [
 		"node_modules"
